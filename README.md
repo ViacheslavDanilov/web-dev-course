@@ -1,6 +1,6 @@
 # HTML, CSS, and JavaScript Crash Course
 
-Repo for my web dev journey, learning HTML, CSS, and JavaScript step by step.
+A comprehensive repository documenting my progressive journey through front-end web development fundamentals.
 
 **Based on**: [HTML, CSS, and Javascript for Web Developers Specialization](https://www.coursera.org/specializations/html-css-javascript-for-web-developers) by Johns Hopkins University on Coursera
 
