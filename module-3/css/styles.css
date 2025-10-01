@@ -1,22 +1,106 @@
-/* Ensure the navbar has a background color */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    color: #333;
+}
+
+/* Navbar styles */
 .navbar {
     background-color: #f8f9fa;
+    border: none;
+    border-radius: 0;
 }
 
-/* Style for the dropdown menu */
-.dropdown-menu {
-    background-color: #ffffff;
-    width: 100%;
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.5rem;
 }
 
-/* Center the page heading */
+.navbar-nav > li > a {
+    text-align: center;
+}
+
+/* Page heading */
 h1 {
     text-align: center;
-    margin-top: 20px;
+    margin: 40px 0 50px 0;
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    letter-spacing: -1px;
 }
 
-/* Tall section to require scrolling */
-.main-section {
-    height: 1000px;
-    background-color: #e9ecef;
+/* Menu items */
+.menu-item {
+    position: relative;
+    background: white;
+    border-radius: 15px;
+    margin: 0 0 30px 0;
+    padding: 75px 25px 25px 25px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    overflow: hidden;
+    min-height: 400px;
+}
+
+.menu-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.menu-item p {
+    color: #555;
+    text-align: left;
+    font-size: 1rem;
+    line-height: 1.7;
+}
+
+.section-title {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border-radius: 8px;
+    padding: 8px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    min-width: 100px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.chicken {
+    background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);
+    color: #8b4a6b;
+}
+
+.beef {
+    background: linear-gradient(135deg, #fc466b 0%, #3f5efb 100%);
+    color: white;
+}
+
+.sushi {
+    background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+    color: #d2691e;
+}
+
+/* Mobile adjustments */
+@media (max-width: 767px) {
+    h1 {
+        font-size: 2.5rem;
+        margin: 30px 0 40px 0;
+    }
+    
+    .menu-item {
+        margin-bottom: 20px;
+    }
 }
