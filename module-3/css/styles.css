@@ -17,14 +17,26 @@ body {
 
 /* Navbar styles */
 .navbar {
-    background-color: #f8f9fa;
+    background: linear-gradient(135deg, rgba(102, 126, 234, 0.95) 0%, rgba(118, 75, 162, 0.95) 100%);
     border: none;
     border-radius: 0;
+    box-shadow: 0 2px 20px rgba(102, 126, 234, 0.2);
+    backdrop-filter: blur(15px);
 }
 
 .navbar-brand {
-    font-weight: 700;
-    font-size: 1.5rem;
+    font-weight: 800;
+    font-size: 1.8rem;
+    color: #ffffff !important;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    letter-spacing: -0.5px;
+    transition: all 0.3s ease;
+}
+
+.navbar-brand:hover {
+    color: #f8f9fa !important;
+    transform: translateY(-1px);
+    text-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
 }
 
 /* Ensure toggle button is only visible on mobile */
@@ -59,12 +71,20 @@ body {
     }
     
     .navbar-nav .nav-link {
-        border-bottom: 1px solid #ddd;
-        background-color: #f8f9fa;
-        color: #333 !important;
-        padding: 15px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        background: linear-gradient(135deg, rgba(102, 126, 234, 0.9) 0%, rgba(118, 75, 162, 0.9) 100%);
+        color: #ffffff !important;
+        padding: 18px;
         text-align: center;
         display: block;
+        font-weight: 500;
+        transition: all 0.3s ease;
+    }
+    
+    .navbar-nav .nav-link:hover {
+        background: linear-gradient(135deg, rgba(102, 126, 234, 1) 0%, rgba(118, 75, 162, 1) 100%);
+        transform: translateX(5px);
+        box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
     }
     
     .navbar-nav .nav-item:last-child .nav-link {
