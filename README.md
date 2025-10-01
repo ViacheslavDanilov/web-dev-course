@@ -19,25 +19,27 @@ This repository contains my progress through a comprehensive web development cou
 - **Assignment**: Responsive restaurant menu with mobile, tablet, and desktop views
 - **Live Demo**: [Module 2 - Restaurant Menu](https://viacheslavdanilov.github.io/web-dev-course/module-2/)
 
-### Module 3: JavaScript Fundamentals
-- **Status**: 🚧 Coming Soon
+### Module 3: Bootstrap & Mobile-First Design
+- **Status**: ✅ Completed
+- **Topics**: Bootstrap framework, responsive navigation, mobile-first approach, navbar components
+- **Assignment**: Food company website with responsive Bootstrap navbar and menu sections
+- **Live Demo**: [Module 3 - Food, LLC](https://viacheslavdanilov.github.io/web-dev-course/module-3/)
+
+### Module 4: JavaScript Fundamentals
+- **Status**: 🚧 Coming Soon  
 - **Topics**: JavaScript basics, DOM manipulation, events, functions
 - **Live Demo**: *Not yet available*
 
-### Module 4: Advanced JavaScript & APIs
-- **Status**: 🚧 Coming Soon  
-- **Topics**: AJAX, JSON, REST APIs, asynchronous programming
-- **Live Demo**: *Not yet available*
-
-### Module 5: Final Project
+### Module 5: Advanced JavaScript & APIs
 - **Status**: 🚧 Coming Soon
-- **Topics**: Full-stack web application combining HTML, CSS, and JavaScript
+- **Topics**: AJAX, JSON, REST APIs, asynchronous programming
 - **Live Demo**: *Not yet available*
 
 ## 🛠 Technologies Used
 
 - **HTML5**: Semantic markup and structure
 - **CSS3**: Styling, responsive design, media queries
+- **Bootstrap 5**: Responsive framework, components, grid system
 - **JavaScript**: Interactive functionality and DOM manipulation
 - **Git & GitHub**: Version control and project hosting
 - **GitHub Pages**: Live demo hosting
@@ -51,7 +53,7 @@ This repository contains my progress through a comprehensive web development cou
 
 2. Navigate to any module directory:
    ```bash
-   cd web-dev-course/module-2
+   cd web-dev-course/module-3
    ```
 
 3. Open `index.html` in your browser or use a local server:
@@ -66,9 +68,14 @@ This repository contains my progress through a comprehensive web development cou
    npx browser-sync start --server --files "*.html,css/*.css,js/*.js"
    ```
 
-## 📱 Module 2 Features
+## 📱 Recent Project Features
 
-The restaurant menu project (Module 2) demonstrates:
+### Module 1: HTML
+
+Basic HTML fundamentals
+
+### Module 2: Restaurant Menu
+The CSS-focused restaurant menu project demonstrates:
 
 - ✅ **Responsive Design**: Mobile-first approach with breakpoints at 768px and 992px
 - ✅ **CSS Grid/Flexbox**: Modern layout techniques
@@ -76,12 +83,23 @@ The restaurant menu project (Module 2) demonstrates:
 - ✅ **Cross-browser Compatibility**: Works across modern browsers
 - ✅ **Semantic HTML**: Proper document structure and accessibility
 
+### Module 3: Food, LLC Website
+The Bootstrap-powered food company website demonstrates:
+
+- ✅ **Bootstrap 5 Framework**: Modern responsive components and utilities
+- ✅ **Mobile-First Navigation**: Collapsible navbar with hamburger menu
+- ✅ **Responsive Grid System**: Bootstrap's 12-column grid layout
+- ✅ **Mobile Menu Dropdown**: Full-width mobile navigation menu
+- ✅ **Component-Based Design**: Modular menu sections with styled content
+
+
 ## 🎯 Learning Objectives
 
 By the end of this course, I will have gained proficiency in:
 
 - [x] HTML5 semantic elements and best practices
 - [x] CSS3 styling, animations, and responsive design
+- [x] Bootstrap framework and component-based development
 - [ ] JavaScript programming fundamentals
 - [ ] DOM manipulation and event handling
 - [ ] API integration and data handling
