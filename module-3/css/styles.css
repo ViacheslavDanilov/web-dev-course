@@ -23,13 +23,26 @@ body {
     font-size: 1.5rem;
 }
 
+/* Ensure toggle button is only visible on mobile */
+.navbar-toggler {
+    display: none;
+}
+
+@media (max-width: 767.98px) {
+    .navbar-toggler {
+        display: block;
+    }
+}
+
 /* Mobile dropdown styling */
-@media (max-width: 767px) {
+@media (max-width: 767.98px) {
     .navbar-collapse {
         border: none;
         box-shadow: none;
         margin: 0;
         padding: 0;
+        background-color: #f8f9fa;
+        margin-top: 10px;
     }
     
     .navbar-nav {
@@ -47,10 +60,18 @@ body {
         color: #333 !important;
         padding: 15px;
         text-align: center;
+        display: block;
     }
     
     .navbar-nav .nav-item:last-child .nav-link {
         border-bottom: none;
+    }
+}
+
+/* Hide navbar menu items on desktop */
+@media (min-width: 768px) {
+    .navbar-collapse {
+        display: none !important;
     }
 }
 
