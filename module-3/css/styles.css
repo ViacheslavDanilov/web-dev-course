@@ -1,0 +1,22 @@
+/* Ensure the navbar has a background color */
+.navbar {
+    background-color: #f8f9fa;
+}
+
+/* Style for the dropdown menu */
+.dropdown-menu {
+    background-color: #ffffff;
+    width: 100%;
+}
+
+/* Center the page heading */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Tall section to require scrolling */
+.main-section {
+    height: 1000px;
+    background-color: #e9ecef;
+}
