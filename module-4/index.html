@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Module 4 – JavaScript Fundamentals</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🗣️ JavaScript Name Greeter</h1>
+    <p class="subtitle">
+      A JavaScript application demonstrating module patterns and name processing logic.
+      Names starting with 'J' receive a farewell, all others get a greeting!
+    </p>
+
+    <div class="console-info">
+      <h3>📋 Console Output</h3>
+      <p>Open your browser's Developer Tools (F12) and check the Console tab to see the output:</p>
+      
+      <div class="code-block">
+        <span class="highlight">Hello Yaakov</span><br>
+        <span class="goodbye">Good Bye John</span><br>
+        <span class="goodbye">Good Bye Jen</span><br>
+        <span class="goodbye">Good Bye Jason</span><br>
+        <span class="highlight">Hello Paul</span><br>
+        <span class="highlight">Hello Frank</span><br>
+        <span class="highlight">Hello Larry</span><br>
+        <span class="highlight">Hello Paula</span><br>
+        <span class="highlight">Hello Laura</span><br>
+        <span class="goodbye">Good Bye Jim</span>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>💡 <strong>How it works:</strong> The application uses JavaScript modules (IIFE pattern) to process an array of names and determine the appropriate greeting based on the first letter.</p>
+    </div>
+  </div>
+
+  <!-- JavaScript Modules -->
+  <script src="js/SpeakHello.js"></script>
+  <script src="js/SpeakGoodBye.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

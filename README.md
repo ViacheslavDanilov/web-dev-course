@@ -8,10 +8,11 @@ A comprehensive repository documenting my progressive journey through front-end 
 
 This repository contains my progress through a comprehensive web development course. Each module focuses on specific skills and concepts, building towards full-stack web development proficiency.
 
-### Module 1: HTML Basics & Git Setup
+### Module 1: Introduction to HTML & Development Setup
 - **Status**: ✅ Completed
-- **Topics**: HTML fundamentals, Git basics, GitHub Pages setup
-- **Live Demo**: [Module 1](https://viacheslavdanilov.github.io/web-dev-course/module-1/)
+- **Topics**: HTML fundamentals, development environment setup, HTML anatomy, semantic elements, content models
+- **Assignment**: Theoretical foundation module
+- **Live Demo**: [Module 1 - Introduction to HTML](https://viacheslavdanilov.github.io/web-dev-course/module-1/)
 
 ### Module 2: CSS & Responsive Design
 - **Status**: ✅ Completed
@@ -25,10 +26,11 @@ This repository contains my progress through a comprehensive web development cou
 - **Assignment**: Food company website with responsive Bootstrap navbar and menu sections
 - **Live Demo**: [Module 3 - Food, LLC](https://viacheslavdanilov.github.io/web-dev-course/module-3/)
 
-### Module 4: JavaScript Fundamentals
-- **Status**: 🚧 Coming Soon  
-- **Topics**: JavaScript basics, DOM manipulation, events, functions
-- **Live Demo**: *Not yet available*
+### Module 4: JavaScript Fundamentals & Module Patterns
+- **Status**: ✅ Completed
+- **Topics**: JavaScript basics, IIFE patterns, module organization, name processing logic
+- **Assignment**: JavaScript Name Greeter with modular architecture and dynamic console output
+- **Live Demo**: [Module 4 - JavaScript Name Greeter](https://viacheslavdanilov.github.io/web-dev-course/module-4/)
 
 ### Module 5: Advanced JavaScript & APIs
 - **Status**: 🚧 Coming Soon
@@ -37,10 +39,10 @@ This repository contains my progress through a comprehensive web development cou
 
 ## 🛠 Technologies Used
 
-- **HTML5**: Semantic markup and structure
+- **HTML**: Semantic markup and structure
 - **CSS3**: Styling, responsive design, media queries
 - **Bootstrap 5**: Responsive framework, components, grid system
-- **JavaScript**: Interactive functionality and DOM manipulation
+- **JavaScript**: Interactive functionality, module patterns, and conditional logic
 - **Git & GitHub**: Version control and project hosting
 - **GitHub Pages**: Live demo hosting
 
@@ -70,9 +72,15 @@ This repository contains my progress through a comprehensive web development cou
 
 ## 📱 Recent Project Features
 
-### Module 1: HTML
+### Module 1: Introduction to HTML & Development Setup
+The foundational HTML theory course covered:
 
-Basic HTML fundamentals
+- ✅ **HTML Fundamentals**: What is HTML, relevant history, and modern standards
+- ✅ **Development Environment**: Git, GitHub, Browser Sync, and development tools setup
+- ✅ **HTML Document Structure**: Basic anatomy, tags, attributes, and document models
+- ✅ **Content Models**: Understanding HTML semantic structure and element relationships
+- ✅ **Core Elements**: Headings, lists, links, images, and character entity references
+- ✅ **Semantic HTML**: Modern semantic elements and accessibility best practices
 
 ### Module 2: Restaurant Menu
 The CSS-focused restaurant menu project demonstrates:
@@ -92,15 +100,28 @@ The Bootstrap-powered food company website demonstrates:
 - ✅ **Mobile Menu Dropdown**: Full-width mobile navigation menu
 - ✅ **Component-Based Design**: Modular menu sections with styled content
 
+### Module 4: JavaScript Name Greeter
+The JavaScript-focused name processing application demonstrates:
+
+- ✅ **IIFE Module Pattern**: Immediately Invoked Function Expressions for namespace protection
+- ✅ **Modular Architecture**: Separate modules for hello and goodbye functionality
+- ✅ **Dynamic Logic Processing**: Conditional greeting based on name's first letter
+- ✅ **Global Scope Management**: Proper exposure of module objects to global context
+- ✅ **Modern UI Design**: Beautiful gradient interface with console output preview
+- ✅ **Organized File Structure**: Separation of concerns (HTML, CSS, JS in dedicated folders)
+- ✅ **Interactive Console Output**: Real-time name processing with color-coded results
+
 
 ## 🎯 Learning Objectives
 
 By the end of this course, I will have gained proficiency in:
 
-- [x] HTML5 semantic elements and best practices
+- [x] HTML semantic elements and best practices
 - [x] CSS3 styling, animations, and responsive design
 - [x] Bootstrap framework and component-based development
-- [ ] JavaScript programming fundamentals
+- [x] JavaScript programming fundamentals and module patterns
+- [x] IIFE patterns and namespace management
+- [x] Conditional logic and array processing
 - [ ] DOM manipulation and event handling
 - [ ] API integration and data handling
 - [ ] Full-stack web application development
