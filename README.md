@@ -8,10 +8,11 @@ A comprehensive repository documenting my progressive journey through front-end 
 
 This repository contains my progress through a comprehensive web development course. Each module focuses on specific skills and concepts, building towards full-stack web development proficiency.
 
-### Module 1: HTML Basics & Git Setup
+### Module 1: Introduction to HTML & Development Setup
 - **Status**: ✅ Completed
-- **Topics**: HTML fundamentals, Git basics, GitHub Pages setup
-- **Live Demo**: [Module 1](https://viacheslavdanilov.github.io/web-dev-course/module-1/)
+- **Topics**: HTML fundamentals, development environment setup, HTML anatomy, semantic elements, content models
+- **Assignment**: Theoretical foundation module
+- **Live Demo**: [Module 1 - Introduction to HTML](https://viacheslavdanilov.github.io/web-dev-course/module-1/)
 
 ### Module 2: CSS & Responsive Design
 - **Status**: ✅ Completed
@@ -38,7 +39,7 @@ This repository contains my progress through a comprehensive web development cou
 
 ## 🛠 Technologies Used
 
-- **HTML5**: Semantic markup and structure
+- **HTML**: Semantic markup and structure
 - **CSS3**: Styling, responsive design, media queries
 - **Bootstrap 5**: Responsive framework, components, grid system
 - **JavaScript**: Interactive functionality, module patterns, and conditional logic
@@ -71,9 +72,15 @@ This repository contains my progress through a comprehensive web development cou
 
 ## 📱 Recent Project Features
 
-### Module 1: HTML
+### Module 1: Introduction to HTML & Development Setup
+The foundational HTML theory course covered:
 
-Basic HTML fundamentals
+- ✅ **HTML Fundamentals**: What is HTML, relevant history, and modern standards
+- ✅ **Development Environment**: Git, GitHub, Browser Sync, and development tools setup
+- ✅ **HTML Document Structure**: Basic anatomy, tags, attributes, and document models
+- ✅ **Content Models**: Understanding HTML semantic structure and element relationships
+- ✅ **Core Elements**: Headings, lists, links, images, and character entity references
+- ✅ **Semantic HTML**: Modern semantic elements and accessibility best practices
 
 ### Module 2: Restaurant Menu
 The CSS-focused restaurant menu project demonstrates:
@@ -109,7 +116,7 @@ The JavaScript-focused name processing application demonstrates:
 
 By the end of this course, I will have gained proficiency in:
 
-- [x] HTML5 semantic elements and best practices
+- [x] HTML semantic elements and best practices
 - [x] CSS3 styling, animations, and responsive design
 - [x] Bootstrap framework and component-based development
 - [x] JavaScript programming fundamentals and module patterns
