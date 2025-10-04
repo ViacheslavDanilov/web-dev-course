@@ -33,9 +33,10 @@ This repository contains my progress through a comprehensive web development cou
 - **Live Demo**: [Module 4 - JavaScript Name Greeter](https://viacheslavdanilov.github.io/web-dev-course/module-4/)
 
 ### Module 5: Advanced JavaScript & APIs
-- **Status**: 🚧 Coming Soon
-- **Topics**: AJAX, JSON, REST APIs, asynchronous programming
-- **Live Demo**: *Not yet available*
+- **Status**: ✅ Completed
+- **Topics**: AJAX, JSON, REST APIs, asynchronous programming, dynamic content loading
+- **Assignment**: Restaurant web app with random category specials using Firebase API integration
+- **Live Demo**: [Module 5 - Restaurant Web App](https://viacheslavdanilov.github.io/web-dev-course/module-5/)
 
 ## 🛠 Technologies Used
 
@@ -111,10 +112,22 @@ The JavaScript-focused name processing application demonstrates:
 - ✅ **Organized File Structure**: Separation of concerns (HTML, CSS, JS in dedicated folders)
 - ✅ **Interactive Console Output**: Real-time name processing with color-coded results
 
+### Module 5: Restaurant Web App
+The advanced JavaScript restaurant application demonstrates:
+
+- ✅ **AJAX Integration**: Asynchronous data fetching from Firebase REST API
+- ✅ **Dynamic Content Loading**: Real-time menu category and item retrieval
+- ✅ **Random Category Selection**: JavaScript algorithm for randomizing specials
+- ✅ **Template System**: HTML snippet loading and dynamic content injection
+- ✅ **Responsive Navigation**: Bootstrap-powered mobile-first design
+- ✅ **API Data Processing**: JSON parsing and object manipulation
+- ✅ **Event-Driven Architecture**: Click handlers and asynchronous callbacks
+- ✅ **Professional Code Organization**: Clean, modular JavaScript with removed comments
+
 
 ## 🎯 Learning Objectives
 
-By the end of this course, I will have gained proficiency in:
+By the end of this course, I have gained proficiency in:
 
 - [x] HTML semantic elements and best practices
 - [x] CSS3 styling, animations, and responsive design
@@ -122,7 +135,7 @@ By the end of this course, I will have gained proficiency in:
 - [x] JavaScript programming fundamentals and module patterns
 - [x] IIFE patterns and namespace management
 - [x] Conditional logic and array processing
-- [ ] DOM manipulation and event handling
-- [ ] API integration and data handling
-- [ ] Full-stack web application development
+- [x] DOM manipulation and event handling
+- [x] API integration and data handling
+- [x] AJAX requests and asynchronous programming
 
